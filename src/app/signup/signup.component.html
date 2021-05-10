@@ -1,0 +1,31 @@
+<div class="form-wrapper">
+  <form [formGroup]="signupForm" id="signup-form">
+    <input formControlName="name" type="email" placeholder="Enter Email" />
+    <input
+      formControlName="email"
+      type="password"
+      placeholder="Enter Password"
+    />
+    <label *ngFor="let skill of skillsData" for="skill-{{ skill }}">
+      <input
+        type="checkbox"
+        name="skills"
+        id="skill-{{ skill }}"
+        [value]="skill"
+        (change)="onSkillChange($event)"
+      />
+      {{ skill }}
+    </label>
+    <label *ngFor="let g of genders" for="gender-{{ g }}">
+      <input
+        type="radio"
+        name="gender"
+        id="gender-{{ g }}"
+        [value]="g"
+        formControlName="gender"
+      />
+      {{ g }}
+    </label>
+  </form>
+</div>
+<p>Form Value : {{ this.signupForm.value | json }}</p>

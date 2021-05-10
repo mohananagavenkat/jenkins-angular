@@ -1,0 +1,206 @@
+[
+  {
+    "ParameterKey": "AvailabilityZoneMaster",
+    "ParameterValue": "$(AvailabilityZoneMaster)"
+  },
+  {
+    "ParameterKey": "AvailabilityZoneReplica",
+    "ParameterValue": "$(AvailabilityZoneReplica)"
+  },
+  {
+    "ParameterKey": "BackendServiceStackToggle",
+    "ParameterValue": "$(BackendServiceStackToggle)"
+  },
+  {
+    "ParameterKey": "CertificateARN",
+    "ParameterValue": "$(CertificateARN)"
+  },
+  {
+    "ParameterKey": "ContainerPort",
+    "ParameterValue": "$(ContainerPort)"
+  },
+  {
+    "ParameterKey": "DatabaseInstanceClass",
+    "ParameterValue": "$(DatabaseInstanceClass)"
+  },
+  {
+    "ParameterKey": "DatabaseName",
+    "ParameterValue": "$(DatabaseName)"
+  },
+  {
+    "ParameterKey": "DatabaseStackToggle",
+    "ParameterValue": "$(DatabaseStackToggle)"
+  },
+  {
+    "ParameterKey": "ECSTaskExecutionRoleArn",
+    "ParameterValue": "$(ECSTaskExecutionRoleArn)"
+  },
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "$(Environment)"
+  },
+  {
+    "ParameterKey": "FargateServiceName",
+    "ParameterValue": "$(FargateServiceName)"
+  },
+  {
+    "ParameterKey": "ImageUrl",
+    "ParameterValue": "$(ImageUrl)"
+  },
+  {
+    "ParameterKey": "LoadBalancerDNS",
+    "ParameterValue": "$(LoadBalancerDNS)"
+  },
+  {
+    "ParameterKey": "MasterPassword",
+    "ParameterValue": "$(MasterPassword)"
+  },
+  {
+    "ParameterKey": "MasterUsername",
+    "ParameterValue": "$(MasterUsername)"
+  },
+  {
+    "ParameterKey": "PrivateSubnetIdAZ2A",
+    "ParameterValue": "$(PrivateSubnetIdAZ2A)"
+  },
+  {
+    "ParameterKey": "PrivateSubnetIdAZ2B",
+    "ParameterValue": "$(PrivateSubnetIdAZ2B)"
+  },
+  {
+    "ParameterKey": "S3BucketName",
+    "ParameterValue": "$(S3BucketName)"
+  },
+  {
+    "ParameterKey": "S3BucketNameStaticHosting",
+    "ParameterValue": "$(S3BucketNameStaticHosting)"
+  },
+  {
+    "ParameterKey": "SecurityGroupServicesDL",
+    "ParameterValue": "$(SecurityGroupServicesDL)"
+  },
+  {
+    "ParameterKey": "SecurityGroupJumpBox",
+    "ParameterValue": "$(SecurityGroupJumpBox)"
+  },
+  {
+    "ParameterKey": "ConnectionStringSecretsArn",
+    "ParameterValue": "$(ConnectionStringSecretsArn)"
+  },
+  {
+    "ParameterKey": "AlternateDomainNames",
+    "ParameterValue": "$(AlternateDomainNames)"
+  },
+  {
+    "ParameterKey": "SecurityGroupRDS",
+    "ParameterValue": "$(SecurityGroupRDS)"
+  },
+  {
+    "ParameterKey": "TargetGroup",
+    "ParameterValue": "$(TargetGroup)"
+  },
+  {
+    "ParameterKey": "FargateSecurityGroupForDL",
+    "ParameterValue": "$(FargateSecurityGroupForDL)"
+  },
+  {
+    "ParameterKey": "FargateSecurityGroupForLBRDS",
+    "ParameterValue": "$(FargateSecurityGroupForLBRDS)"
+  },
+  {
+    "ParameterKey": "APIGatewayStackToggle",
+    "ParameterValue": "$(APIGatewayStackToggle)"
+  },
+  {
+    "ParameterKey": "SNSSubscriptionEmailId",
+    "ParameterValue": "$(SNSSubscriptionEmailId)"
+  },
+  {
+    "ParameterKey": "AttachCloudfrontCertificateToggle",
+    "ParameterValue": "$(AttachCloudfrontCertificateToggle)"
+  },
+  {
+    "ParameterKey": "AutoscaleMinCapacity",
+    "ParameterValue": "$(AutoscaleMinCapacity)"
+  },
+  {
+    "ParameterKey": "AutoscaleMaxCapacity",
+    "ParameterValue": "$(AutoscaleMaxCapacity)"
+  },
+  {
+    "ParameterKey": "AutoScalingScaleUpStepCount",
+    "ParameterValue": "$(AutoScalingScaleUpStepCount)"
+  },
+  {
+    "ParameterKey": "AutoScalingScaleDownStepCount",
+    "ParameterValue": "$(AutoScalingScaleDownStepCount)"
+  },
+  {
+    "ParameterKey": "AutoscalingCooldownTime",
+    "ParameterValue": "$(AutoscalingCooldownTime)"
+  },
+  {
+    "ParameterKey": "AutoscalingPeriod",
+    "ParameterValue": "$(AutoscalingPeriod)"
+  },
+  {
+    "ParameterKey": "AutoscalingEvaluationPeriods",
+    "ParameterValue": "$(AutoscalingEvaluationPeriods)"
+  },
+  {
+    "ParameterKey": "AutoscalingCPUThreshold",
+    "ParameterValue": "$(AutoscalingCPUThreshold)"
+  },
+  {
+    "ParameterKey": "AutoscalingMemoryThreshold",
+    "ParameterValue": "$(AutoscalingMemoryThreshold)"
+  },
+  {
+    "ParameterKey": "AWSSecurityGroup",
+    "ParameterValue": "$(AWSSecurityGroup)"
+  },
+  {
+    "ParameterKey": "LambdaExecutionRole",
+    "ParameterValue": "$(LambdaExecutionRole)"
+  },
+  {
+    "ParameterKey": "SNSErrorNotificationSubscriptionEmailId",
+    "ParameterValue": "$(SNSErrorNotificationSubscriptionEmailId)"
+  },
+  {
+    "ParameterKey": "PatternMatchForLogs",
+    "ParameterValue": "$(PatternMatchForLogs)"
+  },
+  {
+    "ParameterKey": "ErrorLogAlertLambdaStackToggle",
+    "ParameterValue": "$(ErrorLogAlertLambdaStackToggle)"
+  },
+  {
+    "ParameterKey": "PrivateApiGatewayVpcEndpointId",
+    "ParameterValue": "$(PrivateApiGatewayVpcEndpointId)"
+  },
+  {
+    "ParameterKey": "LambdaEdgeOriginRequestArn",
+    "ParameterValue": "$(LambdaEdgeOriginRequestArn)"
+  },
+  {
+    "ParameterKey": "LambdaEdgeOriginResponseArn",
+    "ParameterValue": "$(LambdaEdgeOriginResponseArn)"
+  },
+  {
+    "ParameterKey": "PCADesiredCount",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "PCAFargateServiceName",
+    "ParameterValue": "ams-ps-product-catalog-adapter"
+  },
+  {
+    "ParameterKey": "PCATargetGroup",
+    "ParameterValue": "arn:aws:elasticloadbalancing:us-east-2:344573066583:targetgroup/ams-ps-newTG/5fdc1e6cabd1bb9e"
+  },
+  {
+    "ParameterKey": "ProductCatalogAdapterImageUrl",
+    "ParameterValue": "344573066583.dkr.ecr.us-east-2.amazonaws.com/ams-ps-product-catalog-adapter:latest"
+  }
+]

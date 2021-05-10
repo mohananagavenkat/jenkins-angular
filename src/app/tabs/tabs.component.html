@@ -1,0 +1,13 @@
+<div class="tab-bar">
+  <ul cdkDropList cdkDropListOrientation="horizontal" class="example-list" (cdkDropListDropped)="drop($event)" class="tabs-wrapper">
+    <li
+      (click)="onTabSelect(tab)"
+      [class.active]="tab.active"
+      *ngFor="let tab of tabs"
+      cdkDrag
+    >
+      {{ tab.tabInfo.title }}
+    </li>
+  </ul>
+</div>
+<ng-content></ng-content>

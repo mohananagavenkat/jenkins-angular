@@ -1,0 +1,3 @@
+<input type="text" placeholder="Enter the server name" [(ngModel)]="newServerName">
+<button [disabled]="!newServerName" (click)="handleAddServer($event, newServerName)" >Add it</button>
+<p>New Server Name is : <span appHighlighter> {{ newServerName }} </span></p>

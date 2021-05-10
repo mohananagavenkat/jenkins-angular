@@ -1,0 +1,20 @@
+<ng-container *ngIf="users | async; else loading">
+  <h1>
+    Users List - Showing users from
+    {{ (userResponse.page - 1) * userResponse.per_page + 1 }} to
+    {{ userResponse.page * userResponse.per_page }} out of
+    {{ userResponse.total }}
+  </h1>
+  <!-- <p>{{ users | async | json }}</p> -->
+  <div class="users-wrapper">
+    <ng-container *ngFor="let user of users | async">
+      <app-read-more-card
+        [title]="user.first_name"
+        [description]="user | json"
+      ></app-read-more-card>
+    </ng-container>
+  </div>
+</ng-container>
+<ng-template #loading>
+  <p>Loading....</p>
+</ng-template>

@@ -1,0 +1,10 @@
+.users-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.users-wrapper > * {
+  margin-bottom: 1rem;
+}

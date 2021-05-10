@@ -1,0 +1,17 @@
+<app-add-server (addServer)="onNewServer($event)"></app-add-server>
+<ul>
+  <li *ngFor="let server of serverList">{{ server }}</li>
+</ul>
+
+<app-read-more-card></app-read-more-card>
+<app-my-dropdown
+  appDropdown
+  [dropDownText]="'My Drop Down'"
+  [dropDownItems]="['something', 'other thing', 'some other thing']"
+></app-my-dropdown>
+<app-my-dropdown
+  appDropdown
+  class="dark-theme"
+  [dropDownText]="'My Drop Down'"
+  [dropDownItems]="['something', 'other thing', 'some other thing']"
+></app-my-dropdown>

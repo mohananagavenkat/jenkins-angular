@@ -1,0 +1,15 @@
+.tabs-wrapper{
+  display: flex;
+  list-style: none;
+  background: lightgrey;
+  li{
+    width: 300px;
+    border-right: 1px solid grey;
+    padding: 0 10px;
+    margin:10px 0 0;
+    border-bottom: 5px solid transparent;
+    &.active{
+      border-bottom-color: goldenrod;
+    }
+  }
+}
